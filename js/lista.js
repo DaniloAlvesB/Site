@@ -10,7 +10,10 @@
             ['Coxa de Frango', 'Coxa de Frango congelada pacote de +/-1KG', 16.90, '/imagens/teste.png', 15],
         
             //Sobrecoxa de frango
-            ['Sobrecoxa de Frango', 'Sobrecoxa de Frango congelada pacote de +/-1KG', 18.90, '/imagens/teste.png', 0]
+            ['Sobrecoxa de Frango', 'Sobrecoxa de Frango congelada pacote de +/-1KG', 18.90, '/imagens/teste.png', 0],
+
+            //Teste de frango
+            ['Teste de Frango', 'Sobrecoxa de Frango congelada pacote de +/-1KG', 20.90, '/imagens/teste.png', 19.90]
         ];
 
 

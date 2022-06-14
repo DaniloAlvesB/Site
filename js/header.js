@@ -6,7 +6,7 @@ header.innerHTML = `
         </div>
 
         <div class="navbar-nav navbar-right d-flex flex-wrap">
-        <a href="index.html" class="a_txt m-2">Página inical</a>
+        <a href="../index.html" class="a_txt m-2">Página inical</a>
 
         <div class="btn-group">
             <a class="btn bg-realy-dark dropdown-toggle text-light" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
