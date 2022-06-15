@@ -1,36 +1,4 @@
-
-var nmb = localStorage.length-3;
-
-if(nmb > 0){
-    nmb = `
-        <button class="btn btn-danger" style="border-radius: 50px">${nmb}</button>
-    `
-}else{
-    nmb = `
-        <button class="btn bg-realy-dark text-dark" style="border-radius: 50px">${nmb}</button>
-    `
-}
-
-function detectar_mobile() { 
-    if( navigator.userAgent.match(/Android/i)
-    || navigator.userAgent.match(/webOS/i)
-    || navigator.userAgent.match(/iPhone/i)
-    || navigator.userAgent.match(/iPad/i)
-    || navigator.userAgent.match(/iPod/i)
-    || navigator.userAgent.match(/BlackBerry/i)
-    ){
-       return true;
-     }
-    else {
-       return false;
-     }
-   }
-
-let celular = detectar_mobile();
-
-if(celular == true || celular == false) {
-    console.log("Celular")
-    footer.innerHTML = `
+footer.innerHTML = `
     <!-- Grid container -->
     <div class="container p-4">
       <!-- Section: Social media -->
@@ -214,14 +182,7 @@ if(celular == true || celular == false) {
       <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
-        
-    `
-}else{
-    console.log("PC")
-    footer.innerHTML = `
-    ---
-    `
-}
+`
 
 if(!localStorage.getItem('name')){
     localStorage.setItem('name', "Nome");
