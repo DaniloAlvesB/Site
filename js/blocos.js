@@ -19,7 +19,7 @@ function card1(list, bg_color, text_color, bt1, bt2) {
         if(celular == false){
             margin = "m-1";
         }else{
-            margin = "m-2";
+            margin = "mb-2";
         }
 
         for(let i = 0; i < list.length; i++){
