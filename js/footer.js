@@ -7,7 +7,7 @@ footer.innerHTML = `
         <!-- Twitter -->
         <a href="" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 6@3x.png" alt=""></a>
   
-      <section class="mb-4 text-light">
+      <section class="mb-4 mt-4 text-light">
         <p>Encontre todo tipo de produto para sua dieta e treino aqui no nosso site!</p>
       </section>
 
@@ -42,7 +42,7 @@ footer.innerHTML = `
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="/king_NEs/html/Suplemento.html" class="text-white">Suplemento</a>
+                <a href="/king_NEs/html/Suplementos.html" class="text-white">Suplemento</a>
               </li>
             </ul>
           </div>
