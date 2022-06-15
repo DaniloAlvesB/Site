@@ -2,14 +2,10 @@ footer.innerHTML = `
     <div class="container p-4 bg-realy-dark text-light">
       <section class="mb-4">
         <!-- WhatsApp -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <i class="fab fa-facebook-f"></i>
-        </a>
+        <a href="https://api.whatsapp.com/send?phone=5516997066673&text=Ol%C3%A1!" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 5@3x.png" alt=""></a>
   
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <i class="fab fa-twitter"></i>
-        </a>
+        <a href="" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 6@3x.png" alt=""></a>
   
       <section class="mb-4 text-light">
         <p>Encontre todo tipo de produto para sua dieta e treino aqui no nosso site!</p>
@@ -25,7 +21,7 @@ footer.innerHTML = `
                 <a href="/king_NEs/index.html" class="text-white">Página Inicial</a>
               </li>
               <li>
-                <a href="/king_NEs/usuario.html" class="text-white">Usuário</a>
+                <a href="/king_NEs/html/usuario.html" class="text-white">Usuário</a>
               </li>
             </ul>
           </div>
@@ -36,7 +32,7 @@ footer.innerHTML = `
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="/king_NEs/ProteinaAnimal.html" class="text-white">Proteína Animal</a>
+                <a href="/king_NEs/html/ProteinaAnimal.html" class="text-white">Proteína Animal</a>
               </li>
             </ul>
           </div>
@@ -46,7 +42,7 @@ footer.innerHTML = `
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="/king_NEs/Suplemento.html" class="text-white">Suplemento</a>
+                <a href="/king_NEs/html/Suplemento.html" class="text-white">Suplemento</a>
               </li>
             </ul>
           </div>
