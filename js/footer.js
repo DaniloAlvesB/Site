@@ -23,6 +23,9 @@ footer.innerHTML = `
               <li>
                 <a href="/king_NEs/html/usuario.html" class="text-white">Usuário</a>
               </li>
+              <li>
+                <a href="/king_NEs/html/Carrinho.html" class="text-white">Carrinho</a>
+              </li>
             </ul>
           </div>
 
