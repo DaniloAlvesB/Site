@@ -61,7 +61,7 @@ function card1(list, bg_color, text_color, bt1, bt2) {
                             <h5 class="card-title  text-left">${list[i][0]}</h5>
                             <p class="card-text  text-left">${list[i][1]}</p>
                             <p class=" text-right ml-2 text-primary" style="font-weight: bold;">De <s class="text-primary">R$ ${list[i][2].toFixed(2)}</s> por <c class="text-danger" style="font-weight: bold;">R$ ${list[i][4].toFixed(2)}</c></p>
-                            <a href="#" id="compra${list[i][0]}" class="btn ${bt1} btn-block" onclick="mensagem_compra('Frangão Brabo')">Comprar</a>
+                            <a href="#" id="compra${list[i][0]}" class="btn ${bt1} btn-block" onclick="mensagem_compra('${list[i][0]}', ${list[i][2].toFixed(2)}, ${list[i][4].toFixed(2)})">Comprar</a>
                             <a onclick="AdicionaCarrinho('${list[i][0]}')" id="carrinho${list[i][0]}" class="btn ${bt2} btn-block">Adicionar ao carrinho</a>
                             ${item}
                         </div>
@@ -91,4 +91,19 @@ function card1(list, bg_color, text_color, bt1, bt2) {
     }
 
     document.location.reload(true);
+  }
+
+  function mensagem_compra(produto, valor, promo){
+    var base = window.location.href = `https://api.whatsapp.com/send?phone=5516992659359&text=`;
+
+    var val = valor;
+    if(promo > 0){
+        val = promo;
+    }
+
+    var text = `${base}Olá! Gostaria de pedir o seguinte produto: ${produto} (R$ ${val})`
+
+    var pedido = text.replace(/ /g, "%20");
+
+    window.location.href = pedido;
   }
