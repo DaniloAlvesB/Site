@@ -32,14 +32,31 @@ footer.innerHTML = `
 
 
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase text-warning">Produtos</h5>
+            <h5 class="text-uppercase text-warning">Alimentos</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">/king_NEs/ProteinaAnimal.html</a>
+                <a href="/king_NEs/ProteinaAnimal.html" class="text-white">Proteína Animal</a>
               </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-warning">Suplementos</h5>
+  
+            <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">/king_NEs/Suplemento.html</a>
+                <a href="/king_NEs/Suplemento.html" class="text-white">Suplemento</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-warning">Outros</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="" class="text-white">...</a>
               </li>
             </ul>
           </div>
