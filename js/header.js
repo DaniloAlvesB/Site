@@ -1,4 +1,15 @@
 
+var nmb = localStorage.length-3;
+
+if(nmb > 0){
+    nmb = `
+        <button class="btn btn-danger" style="border-radius: 50px">${nmb}</button>
+    `
+}else{
+    nmb = ""
+}
+
+
 header.innerHTML = `
     <div class="navbar navbar-expand-lg navbar-fixed-top justify-content-around bg-realy-dark">
         <div style="min-width: 10rem;">
@@ -14,18 +25,32 @@ header.innerHTML = `
             </a>
             <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
             <li><a class="dropdown-item" href="/html/ProteinaAnimal.html">Proteína animal</a></li>
-            <li><a class="dropdown-item" href="#">Proteína vegetal</a></li>
+            <!-- <li><a class="dropdown-item" href="#">Proteína vegetal</a></li> -->
             <li><a class="dropdown-item" href="/html/Suplementos.html">Suplementos</a></li>
-            <li><a class="dropdown-item" href="#">Dia do lixo</a></li>
+            <!-- <li><a class="dropdown-item" href="#">Dia do lixo</a></li> -->
             </ul>
         </div>
 
         </div>
 
         <div class="navbar-nav navbar-right d-flex flex-wrap">
-        <a href="https://api.whatsapp.com/send?phone=5516997066673&text=Ol%C3%A1!" class="m-2"><img style="cursor: pointer;" height="40rem" src="/imagens/Logo/social-media-logo-collection/3x/Ativo 5@3x.png" alt=""></a>
-        <a href="" class="m-2"><img style="cursor: pointer;" height="40rem" src="/imagens/Logo/social-media-logo-collection/3x/Ativo 6@3x.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?phone=5516997066673&text=Ol%C3%A1!" class="m-2"><img style="cursor: pointer;" height="40rem" src="/imagens/Logo/social-media-logo-collection/3x/Ativo 5@3x.png" alt=""></a>
+            <a href="" class="m-2"><img style="cursor: pointer;" height="40rem" src="/imagens/Logo/social-media-logo-collection/3x/Ativo 6@3x.png" alt=""></a>
+            <a href="/html/usuario.html" class="a_txt ml-5" style="margin-top: 5%"><img src="/imagens/Logo/social-media-logos-and-icons-set/3x/user.png" height="25rem"></a>
+            <a href="/html/Carrinho.html" target="_blank" class="a_txt mt-2 ml-3"><img src="/imagens/Logo/shopping-icons-collection/3x/market.png" height="25rem"> ${nmb}</a>
         </div>
 
     </div>
 `
+
+if(!localStorage.getItem('name')){
+    localStorage.setItem('name', "Nome");
+}
+
+if(!localStorage.getItem('endereco')){
+    localStorage.setItem('endereco', "Endereço com número");
+}
+
+if(!localStorage.getItem('telefone')){
+    localStorage.setItem('telefone', "Telefone para contato");
+}
