@@ -1,10 +1,15 @@
 
 var nmb = localStorage.length-3;
 
-
-nmb = `
-    <button class="btn btn-danger" style="border-radius: 50px">${nmb}</button>
-`
+if(nmb > 0){
+    nmb = `
+        <button class="btn btn-danger" style="border-radius: 50px">${nmb}</button>
+    `
+}else{
+    nmb = `
+        <button class="btn bg-realy-dark text-dark" style="border-radius: 50px">${nmb}</button>
+    `
+}
 
 
 header.innerHTML = `
