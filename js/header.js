@@ -18,7 +18,6 @@ function detectar_mobile() {
     || navigator.userAgent.match(/iPad/i)
     || navigator.userAgent.match(/iPod/i)
     || navigator.userAgent.match(/BlackBerry/i)
-    || navigator.userAgent.match(/Windows Phone/i)
     ){
        return true;
      }
