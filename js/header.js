@@ -48,12 +48,12 @@ if(celular == true) {
             </div>
         </div>
         <div class="btn-group">
-            <a class="btn bg-realy-dark dropdown-toggle text-light w-100" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+            <a class="btn bg-realy-dark dropdown-toggle text-light" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
             |||
             </a>
             <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
             <h5>Menus</h5>
-            <li><a href="/king_NEs/index.html" class="a_txt m-2 text-dark">Página inical</a></li>
+            <li><a href="/king_NEs/" class="a_txt m-2 text-dark">Página inical</a></li>
             <h5>Produtos</h5>
             <li><a class="dropdown-item" href="/king_NEs/html/ProteinaAnimal.html">Proteína animal</a></li>
             <li><a class="dropdown-item" href="/king_NEs/html/Suplementos.html">Suplementos</a></li>
@@ -70,7 +70,7 @@ if(celular == true) {
             </div>
 
             <div class="navbar-nav navbar-right d-flex flex-wrap">
-            <a href="https://daniloalvesb.github.io/king_NEs/" class="a_txt m-2">Página inical</a>
+            <a href="/king_NEs/" class="a_txt m-2">Página inical</a>
 
             <div class="btn-group">
                 <a class="btn bg-realy-dark dropdown-toggle text-light" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
