@@ -44,11 +44,11 @@ if(celular == true) {
                 <a href="https://api.whatsapp.com/send?phone=5516997066673&text=Ol%C3%A1!" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 5@3x.png" alt=""></a>
                 <a href="" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 6@3x.png" alt=""></a>
                 <a href="/king_NEs/html/usuario.html" class="a_txt ml-5" style="margin-top: 5%"><img src="/king_NEs/imagens/Logo/social-media-logos-and-icons-set/3x/user.png" height="25rem"></a>
-                <a href="/king_NEs/html/Carrinho.html" target="_blank" class="a_txt mt-2 ml-3"><img src="/king_NEs/imagens/Logo/shopping-icons-collection/3x/market.png" height="25rem"> ${nmb}</a>
+                <a href="/king_NEs/html/Carrinho.html" class="a_txt mt-2 ml-3"><img src="/king_NEs/imagens/Logo/shopping-icons-collection/3x/market.png" height="25rem"> ${nmb}</a>
             </div>
         </div>
         <div class="btn-group">
-            <a class="btn bg-realy-dark dropdown-toggle text-light" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+            <a class="btn bg-realy-dark dropdown-toggle text-light w-100" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
             |||
             </a>
             <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
@@ -90,7 +90,7 @@ if(celular == true) {
                 <a href="https://api.whatsapp.com/send?phone=5516997066673&text=Ol%C3%A1!" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 5@3x.png" alt=""></a>
                 <a href="" class="m-2"><img style="cursor: pointer;" height="40rem" src="/king_NEs/imagens/Logo/social-media-logo-collection/3x/Ativo 6@3x.png" alt=""></a>
                 <a href="/king_NEs/html/usuario.html" class="a_txt ml-5" style="margin-top: 5%"><img src="/king_NEs/imagens/Logo/social-media-logos-and-icons-set/3x/user.png" height="25rem"></a>
-                <a href="/king_NEs/html/Carrinho.html" target="_blank" class="a_txt mt-2 ml-3"><img src="/king_NEs/imagens/Logo/shopping-icons-collection/3x/market.png" height="25rem"> ${nmb}</a>
+                <a href="/king_NEs/html/Carrinho.html" class="a_txt mt-2 ml-3"><img src="/king_NEs/imagens/Logo/shopping-icons-collection/3x/market.png" height="25rem"> ${nmb}</a>
             </div>
 
         </div>
