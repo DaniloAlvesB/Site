@@ -7,7 +7,7 @@ if(nmb > 0){
     `
 }else{
     nmb = `
-        <button class="btn bg-realy-dark text-dark" style="border-radius: 50px">${nmb}</button>
+        <button class="btn bg-realy-dark" style="border-radius: 50px; color: black;">${nmb}</button>
     `
 }
 
