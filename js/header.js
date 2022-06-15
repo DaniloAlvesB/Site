@@ -29,9 +29,9 @@ function detectar_mobile() {
 let celular = detectar_mobile();
 
 if(celular = true) {
-    alert("Celular")
+    console.log("Celular")
 }else{
-    alert("PC")
+    console.log("PC")
     header.innerHTML = `
         <div class="navbar navbar-expand-lg navbar-fixed-top justify-content-around bg-realy-dark">
             <div style="min-width: 10rem;">
