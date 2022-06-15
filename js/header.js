@@ -31,7 +31,7 @@ let celular = detectar_mobile();
 if(celular == true) {
     console.log("Celular")
     header.innerHTML = `
-        <div class="navbar navbar-expand-lg navbar-fixed-top justify-content-around bg-realy-dark">
+        <div class="navbar navbar-expand-lg navbar-fixed-top justify-content-around bg-realy-dark d-flex flex-column">
             <div style="min-width: 10rem;">
             <h2 id="logo" style="color: rgb(255, 255, 255); " class="d-flex flex-column tex-center"> <p style="margin-left: 2.7rem;" class="text-dourado">King</p> <p style="color: rgb(255, 255, 255); font-size: 0.6em; margin-top: -1rem;">Nutrição Esportiva</p></h2>
             </div>
