@@ -1,4 +1,25 @@
 function card1(list, bg_color, text_color, bt1, bt2) {
+    function detectar_mobile() { 
+        if( navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            ){
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+    
+        let celular = detectar_mobile();
+        let margin = "";
+        if(celular == false){
+            margin = "m-1";
+        }
+
         for(let i = 0; i < list.length; i++){
             let item = "";
             if(localStorage.getItem(list[i][0])){
@@ -17,7 +38,7 @@ function card1(list, bg_color, text_color, bt1, bt2) {
 
             if(list[i][4] == 0){
                 conteudo.innerHTML += `
-                    <div class="card ${text_color} ${bg_color} m-1" style="min-width: 18rem; max-width: 18rem; min-height: 20rem, max-height: 20rem">
+                    <div class="card ${text_color} ${bg_color} ${margin}" style="min-width: 18rem; max-width: 18rem; min-height: 20rem, max-height: 20rem">
                         <img src="${list[i][3]}" class="card-img-top" height="150rem">
                         <div class="card-body">
                             <h5 class="card-title text-left">${list[i][0]}</h5>
@@ -32,7 +53,7 @@ function card1(list, bg_color, text_color, bt1, bt2) {
 
             }else{
                 conteudo.innerHTML += `
-                    <div class="card ${text_color} ${bg_color} m-1" style="min-width: 18rem; max-width: 18rem; min-height: 20rem, max-height: 20rem">
+                    <div class="card ${text_color} ${bg_color} ${margin}" style="min-width: 18rem; max-width: 18rem; min-height: 20rem, max-height: 20rem">
                         <img src="${list[i][3]}" class="card-img-top" height="150rem">
                         <div class="card-body">
                             <h5 class="card-title  text-left">${list[i][0]}</h5>
