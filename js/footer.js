@@ -18,7 +18,7 @@ footer.innerHTML = `
   
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="/king_NEs/index.html" class="text-white">Página Inicial</a>
+                <a href="/king_NEs/" class="text-white">Página Inicial</a>
               </li>
               <li>
                 <a href="/king_NEs/html/usuario.html" class="text-white">Usuário</a>

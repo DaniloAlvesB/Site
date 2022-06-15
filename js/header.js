@@ -70,7 +70,7 @@ if(celular == true) {
             </div>
 
             <div class="navbar-nav navbar-right d-flex flex-wrap">
-            <a href="/king_NEs/index.html" class="a_txt m-2">Página inical</a>
+            <a href="https://daniloalvesb.github.io/king_NEs/" class="a_txt m-2">Página inical</a>
 
             <div class="btn-group">
                 <a class="btn bg-realy-dark dropdown-toggle text-light" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
