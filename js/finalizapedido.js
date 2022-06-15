@@ -27,7 +27,7 @@ function finaliza(pedido){
 }
 function envia(pedido){
 
-    let name = "Nome: " + localStorage.getItem('name');
+    let name = "Nome: " + localStorage.getItem('name') + "%0A";
 
     let base = "https://api.whatsapp.com/send?phone=5516992659359&text=";
 
@@ -40,8 +40,8 @@ function envia(pedido){
     let local = localStorage.getItem('endereco');
     let tel = localStorage.getItem('telefone');
 
-    pedido2 += `   %0D Endereço: ${local}`
-    pedido2 += `   %0D Telefone para contato: ${tel}`
+    pedido2 += `%0A%0A Endereço: ${local}`
+    pedido2 += `%0A Telefone para contato: ${tel}`
 
     window.location.href = pedido2;
 }
