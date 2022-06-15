@@ -46,7 +46,7 @@ function card1(list, bg_color, text_color, bt1, bt2) {
                             <h5 class="card-title text-left">${list[i][0]}</h5>
                             <p class="card-text text-left">${list[i][1]}</p>
                             <p class=" text-right text-primary ml-2" style="font-weight: bold;">R$ ${list[i][2].toFixed(2)}</p>
-                            <a href="#" id="compra${list[i][0]}" class="btn ${bt1} btn-block" onclick="mensagem_compra('Frangão Brabo')">Comprar</a>
+                            <a href="#" id="compra${list[i][0]}" class="btn ${bt1} btn-block" onclick="mensagem_compra('${list[i][0]}', ${list[i][2].toFixed(2)}, ${list[i][4].toFixed(2)})">Comprar</a>
                             <a onclick="AdicionaCarrinho('${list[i][0]}')" id="carrinho${list[i][0]}" class="btn ${bt2} btn-block">Adicionar ao carrinho</a>
                             ${item}
                         </div>
